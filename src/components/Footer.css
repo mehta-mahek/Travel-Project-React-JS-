@@ -1,0 +1,38 @@
+footer {
+    background: linear-gradient(90deg,#B4A7D6, #E1C6FF);
+  }
+  
+  footer a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  footer .text-gray-300 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  footer .container > div {
+    flex: 1;
+  }
+  
+  footer .container ul {
+    margin: 0;
+  }
+  
